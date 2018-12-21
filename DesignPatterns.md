@@ -1,12 +1,12 @@
 # Gang of four
 
-## - 1. Creational Design Patterns
+## * 1. Creational Design Patterns
 ### 1. Abstract Factory Pattern
 ### 2. Builder Pattern
 ### 3. Factory Pattern
 ### 4. Prototype Pattern
 ### 5. Singleton Pattern
-
+- 딱 한 객체만 생성되도록 한다.
 <pre><code>
 public class SingletonPatternDemo {
    public static void main(String[] args) {
@@ -26,7 +26,7 @@ public class SingleObject {
    }
 }</code></pre>
 
-## - 2. Structural Design Patterns
+## * 2. Structural Design Patterns
 ### 1. Adapter Pattern
 ### 2. Composite Pattern
 ### 3. Proxy Pattern
@@ -35,7 +35,7 @@ public class SingleObject {
 ### 6. Bridge Pattern
 ### 7. Decorator Pattern
 
-## - 3. Behavioral Design Patterns
+## * 3. Behavioral Design Patterns
 ### 1. Template Method Pattern
 ### 2. Mediator Pattern
 ### 3. Chain of Responsibility Pattern
