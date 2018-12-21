@@ -1,4 +1,4 @@
-#Gang of four
+# Gang of four
 
 ## Creational Design Patterns
 1. Abstract Factory Pattern
