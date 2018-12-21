@@ -17,3 +17,5 @@
   The last revision to this document was made on April 20, 1999          
   
 * https://github.com/nhnent/fe.javascript/wiki/코딩-컨벤션
+
+* http://www.dfki.de/~kiefer/javakurs/JavaCodingStandards.pdf
