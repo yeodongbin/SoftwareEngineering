@@ -7,7 +7,8 @@
 ### 4. Prototype Pattern
 ### 5. Singleton Pattern
 
-<pre><code>public class SingletonPatternDemo {
+<pre><code>
+public class SingletonPatternDemo {
    public static void main(String[] args) {
       SingleObject object = SingleObject.getInstance();
       object.showMessage();
@@ -15,7 +16,6 @@
 }
 
 public class SingleObject {
-
    private static SingleObject instance = new SingleObject();
    private SingleObject(){}
    public static SingleObject getInstance(){
