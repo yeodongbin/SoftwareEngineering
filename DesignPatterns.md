@@ -1,3 +1,5 @@
+#Gang of four
+
 ## Creational Design Patterns
 1. Abstract Factory Pattern
 2. Builder Pattern
@@ -5,24 +7,25 @@
 4. Prototype Pattern
 5. Singleton Pattern
 
+
 ## Structural Design Patterns
-6.Adapter Pattern
-7.Composite Pattern
-8.Proxy Pattern
-9.Flyweight Pattern
-10.Facade Pattern
-11.Bridge Pattern
-12.Decorator Pattern
+1. Adapter Pattern
+2. Composite Pattern
+3. Proxy Pattern
+4. Flyweight Pattern
+5. Facade Pattern
+6. Bridge Pattern
+7. Decorator Pattern
 
 ## Behavioral Design Patterns
-13.Template Method Pattern
-14.Mediator Pattern
-15.Chain of Responsibility Pattern
-16.Observer Pattern
-17.Strategy Pattern
-18.Command Pattern
-19.State Pattern
-20.Visitor Pattern
-21.Interpreter Pattern
-22.Iterator Pattern
-23.Memento Pattern
+1. Template Method Pattern
+2. Mediator Pattern
+3. Chain of Responsibility Pattern
+4. Observer Pattern
+5. Strategy Pattern
+6. Command Pattern
+7. State Pattern
+8. Visitor Pattern
+9. Interpreter Pattern
+10. Iterator Pattern
+11. Memento Pattern
