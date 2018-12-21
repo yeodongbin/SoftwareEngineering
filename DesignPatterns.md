@@ -7,31 +7,24 @@
 ### 4. Prototype Pattern
 ### 5. Singleton Pattern
 
-<pre><code>
-public class SingleObject {
-
-   private static SingleObject instance = new SingleObject();
-   
-   private SingleObject(){}
-   
-   public static SingleObject getInstance(){
-      return instance;
-   }
-
-   public void showMessage(){
-      System.out.println("Hello World!");
-   }
-}
-
-public class SingletonPatternDemo {
+<pre><code>public class SingletonPatternDemo {
    public static void main(String[] args) {
-
       SingleObject object = SingleObject.getInstance();
-
       object.showMessage();
    }
 }
-</code></pre>
+
+public class SingleObject {
+
+   private static SingleObject instance = new SingleObject();
+   private SingleObject(){}
+   public static SingleObject getInstance(){
+      return instance;
+   }
+   public void showMessage(){
+      System.out.println("Hello World!");
+   }
+}</code></pre>
 
 ## - 2. Structural Design Patterns
 ### 1. Adapter Pattern
