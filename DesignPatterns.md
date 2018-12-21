@@ -6,7 +6,8 @@
 ### 3. Factory Pattern
 ### 4. Prototype Pattern
 ### 5. Singleton Pattern
-- 딱 한 객체만 생성되도록 한다.
+- 객체를 하나만 생성하여, 생성된 객체를 모든 다른 클래스에서 참조할 수 있도록 하는 디자인 패턴이다.
+
 <pre><code>
 public class SingletonPatternDemo {
    public static void main(String[] args) {
@@ -25,6 +26,19 @@ public class SingleObject {
       System.out.println("Hello World!");
    }
 }</code></pre>
+<pre><code>
+public class SingletonPatternDemo {
+  public static void main(String argv[]) {
+    SingleObject.showMessage();
+  }
+}
+
+final class SingleObject {
+  static public void showMessage() {
+    System.out.println("Hello World!");
+  }
+}</code></pre>
+
 
 ## * 2. Structural Design Patterns
 ### 1. Adapter Pattern
