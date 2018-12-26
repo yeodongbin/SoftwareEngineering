@@ -1,4 +1,4 @@
-# Gang of four
+# Gang of Four
 
 ## 1. Creational Design Patterns
 
