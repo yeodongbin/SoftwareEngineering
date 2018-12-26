@@ -1,9 +1,16 @@
 # Gang of four
 
 ## * 1. Creational Design Patterns
+
 ### 1. Abstract Factory Pattern
 ### 2. Builder Pattern
 ### 3. Factory Pattern
+
+#### 3-1 Abstract Factory Pattern
+
+#### 3-2 Factory Method Pattern
+- 객체를 생성하는 메소드를 Factory Method라고 한다. 
+
 ### 4. Prototype Pattern
 ### 5. Singleton Pattern
 - 객체를 하나만 생성하여, 생성된 객체를 모든 다른 클래스에서 참조할 수 있도록 하는 디자인 패턴이다.
@@ -60,5 +67,9 @@ final class SingleObject {
 ### 10. Iterator Pattern
 ### 11. Memento Pattern
 
+# Design Pattern for Game Programming
+
+
 # Reference 
 - https://www.tutorialspoint.com/design_pattern/singleton_pattern.htm
+- http://www.java2s.com/Tutorials/Java/Java_Design_Patterns/index.htm
