@@ -1,17 +1,18 @@
 # Gang of four
 
 ## 1. Creational Design Patterns
-<br> 
+
 ### 1. Abstract Factory Pattern
-<br> 
+
 ### 2. Builder Pattern
-<br> 
+
 ### 3. Factory Pattern
-<br> 
+
 #### 3-1 Abstract Factory Pattern
-<br> 
+- 객체를 생성하는 메소드를 Factory Method라고 한다.
+
 #### 3-2 Factory Method Pattern
-- 객체를 생성하는 메소드를 Factory Method라고 한다.<br> 
+- 객체를 생성하는 메소드를 Factory Method라고 한다.
 
 ### 4. Prototype Pattern
 ### 5. Singleton Pattern
