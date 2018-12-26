@@ -9,10 +9,10 @@
 ### 3. Factory Pattern
 
 #### 3-1 Abstract Factory Pattern
-- 객체를 생성하는 메소드를 Factory Method라고 한다.
+- 인터페이스를 이용하여 서로 연관되거나 의존하는 객체를 생성할 수 있다.
 
 #### 3-2 Factory Method Pattern
-- 객체를 생성하는 메소드를 Factory Method라고 한다.
+- 객체를 생성하는 메소드를 Factory Method Pattern 이라고 한다. 즉, 클래스의 인스턴스를 만드는 작업을 서브 클래서에서 맡겨서 진행한다.
 
 ### 4. Prototype Pattern
 ### 5. Singleton Pattern
