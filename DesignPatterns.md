@@ -9,11 +9,11 @@
 #### 3-1 Abstract Factory Pattern
 
 #### 3-2 Factory Method Pattern
-<br> - 객체를 생성하는 메소드를 Factory Method라고 한다. 
+- 객체를 생성하는 메소드를 Factory Method라고 한다.<br> 
 
 ### 4. Prototype Pattern
 ### 5. Singleton Pattern
-<br> - 객체를 하나만 생성하여, 생성된 객체를 모든 다른 클래스에서 참조할 수 있도록 하는 디자인 패턴이다.
+- 객체를 하나만 생성하여, 생성된 객체를 모든 다른 클래스에서 참조할 수 있도록 하는 디자인 패턴이다.
 
 <pre><code>public class SingletonPatternDemo {
    public static void main(String[] args) {
