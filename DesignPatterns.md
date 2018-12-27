@@ -71,24 +71,8 @@ final class SingleObject {
 ### 11. Memento Pattern
 ### 12. MVC pattern
 
-
-# Design Pattern for Game Programming
-## 1. State Pattern
-
-## 2. FSM(Finite State Machine)
-
-## 3. Observer Pattern
-
-## 4. Visitor Pattern
-
-## 5. Composite pattern
-
-## 6. CBD(Componetn Based Development)
-
-
 # Reference 
 - https://www.tutorialspoint.com/design_pattern/singleton_pattern.htm
 - http://www.java2s.com/Tutorials/Java/Java_Design_Patterns/index.htm
-- https://www.slideshare.net/ssuserc7d9d4/ss-41081616
 - https://www.tutorialspoint.com/design_pattern/factory_pattern.htm
 - http://www.java2s.com/Tutorials/Java/Java_Design_Patterns/0010__Java_Factory_Pattern.htm
