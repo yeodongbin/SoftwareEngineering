@@ -117,5 +117,5 @@ final class SingleObject {
 - https://www.tutorialspoint.com/design_pattern/singleton_pattern.htm
 - http://www.java2s.com/Tutorials/Java/Java_Design_Patterns/index.htm
 - https://www.tutorialspoint.com/design_pattern/factory_pattern.htm
-- http://www.java2s.com/Tutorials/Java/Java_Design_Patterns/0010__Java_Factory_Pattern.htm
 - http://hyeonstorage.tistory.com/99
+- https://www.javacodegeeks.com/2015/09/java-design-patterns.html
