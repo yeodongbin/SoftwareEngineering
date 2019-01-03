@@ -29,7 +29,7 @@
 클래스 개념을 활용하여 쉽게 말하면, 부모 클래스와 자식 클래스가 있을 때, 부모 클래스를 통해 구현된 코드에서는 자식 클래스를 호출하거나 사용하지 않도록 
 혹은, 내부에서는 사용이 되더라도 코드상으로는 표출되지 않도록 설계를 해야 한다는 뜻이다.
 
-![LSP_01](https://github.com/yeodongbin/img/blob/master/LSP_01.jpg)
+<a href="url"><img src="https://github.com/yeodongbin/img/blob/master/LSP_01.jpg" align="centor" height="300" width="500" ></a>
 
 ### 4. DIP (Dependency Inversion Principle) : 의존관계 역전 원칙
 A. 고차원 모듈은 저차원 모듈에 의존하면 안 된다. 이 두 모듈 모두 다른 추상화된 것에 의존해야 한다.
