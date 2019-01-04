@@ -46,5 +46,9 @@ B. 추상화된 것은 구체적인 것에 의존하면 안 된다. 구체적인
 
 
 ## Reference 
-UML, 실전에서는 이것만 쓴다 - Java 프로그래머를 위한, 로버트 C. 마틴 지음, 이용원, 정지호 (옮긴이) 
+- Java 프로그래머를 위한 UML 실전에서는 이것만 쓴다 -, 로버트 C. 마틴 지음, 이용원, 정지호 (옮긴이) <br>
+- http://www.nextree.co.kr/p6960/ <br>
+  UML 다이어그램에 대해 자세하게 설명하고 있는 사이트 <br>
+- https://gmlwjd9405.github.io/2018/07/04/class-diagram.html <br>
+  UML 다이어그램에 대해 자세하게 설명하고 있는 사이트 <br>
 
