@@ -24,6 +24,8 @@
 - www.objectmentor.com
 - 'Agile Software Development : Principles, Patterns, and Practices'
 - 'Writing Effective Use Case', Alistair Cockburn
+- http://www.nextree.co.kr/p6753/
+- https://gmlwjd9405.github.io/2018/07/09/decorator-pattern.html
 
 
 
