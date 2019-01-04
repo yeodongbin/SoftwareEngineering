@@ -2,25 +2,25 @@
 ## 1. 좋은 코드를 판별하는 기준
 
 ### 1. 경직성 (Rigidity) 
-The system is hard to change because every time you change one thing, you have to change something else in a never ending succession of changes.
+> The system is hard to change because every time you change one thing, you have to change something else in a never ending succession of changes.
 
 ### 2. 부서지기 쉬움 (Fragility)
-A change to one part of the system causes it to break in many other, completely unrelated, parts.
+> A change to one part of the system causes it to break in many other, completely unrelated, parts.
 
 ### 3. 부동성 (Immobility)
-It is hard to disentangle the system into components that can be reused in other systems.
+> It is hard to disentangle the system into components that can be reused in other systems.
 
 ### 4. 끈끈함 (Viscosity)
-The development environment is held together with scotch tape and toothpaste. It takes forever to go around the edit, compile, test loop.
+> The development environment is held together with scotch tape and toothpaste. It takes forever to go around the edit, compile, test loop.
 
 ### 5. 쓸데없이 복잡함 (Needless Complexity) 
-There are lots of very clever code structures that aren’t acutally necessary right now, but could be very useful one day.
+> There are lots of very clever code structures that aren’t acutally necessary right now, but could be very useful one day.
 
 ### 6. 필요 없는 반복 (Needless Repetition)
-The code looks like it was written by two programmers named Cut and Paste.
+> The code looks like it was written by two programmers named Cut and Paste.
 
 ### 7. 불투명성 (Opacity)
-Elucidation of the originator’s intent presents certain difficulties related to convolution of expression.
+> Elucidation of the originator’s intent presents certain difficulties related to convolution of expression.
 
 ## 2. 효과적인 객체지향 프로그래밍을 위한 원칙
 coupling
@@ -51,7 +51,8 @@ B. 추상화된 것은 구체적인 것에 의존하면 안 된다. 구체적인
 어떤 객체의 사용자에게 그 사용자한테 필요한 매서드만 있는 인터페이스를 제공하라.</p>
 
 ## Reference 
-<p>[1] Java 프로그래머를 위한 UML 실전에서는 이것만 쓴다, 로버트 C. 마틴 지음, 이용원, 정지호 옮김</p>
-<p>[2] http://www.nextree.co.kr/p6960/ : UML 다이어그램에 대해 자세하게 설명하고 있는 사이트 </p>
-<p>[3] https://gmlwjd9405.github.io/2018/07/04/class-diagram.html : UML 다이어그램에 대해 자세하게 설명하고 있는 사이트</p>
+<p>[1] UML for Java Programmers, 로버트 C. 마틴 지음</p>
+<p>[2] Java 프로그래머를 위한 UML 실전에서는 이것만 쓴다, 로버트 C. 마틴 지음, 이용원, 정지호 옮김</p>
+<p>[3] http://www.nextree.co.kr/p6960/ : UML 다이어그램에 대해 자세하게 설명하고 있는 사이트 </p>
+<p>[4] https://gmlwjd9405.github.io/2018/07/04/class-diagram.html : UML 다이어그램에 대해 자세하게 설명하고 있는 사이트</p>
 
