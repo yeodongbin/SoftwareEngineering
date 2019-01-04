@@ -1,31 +1,37 @@
 
-
 ## 1. 좋은 코드를 판별하는 기준
 
-### 1. 경직성
+### 1. 경직성 (Rigidity) 
+The system is hard to change because every time you change one thing, you have to change something else in a never ending succession of changes.
 
-### 2. 부서지기 쉬움
+### 2. 부서지기 쉬움 (Fragility)
+A change to one part of the system causes it to break in many other, completely unrelated, parts.
 
-### 3. 부동성
+### 3. 부동성 (Immobility)
+It is hard to disentangle the system into components that can be reused in other systems.
 
-### 4. 끈끈함
+### 4. 끈끈함 (Viscosity)
+The development environment is held together with scotch tape and toothpaste. It takes forever to go around the edit, compile, test loop.
 
-### 5. 쓸데없이 복잡함
+### 5. 쓸데없이 복잡함 (Needless Complexity) 
+There are lots of very clever code structures that aren’t acutally necessary right now, but could be very useful one day.
 
-### 6. 필요 없는 반복
+### 6. 필요 없는 반복 (Needless Repetition)
+The code looks like it was written by two programmers named Cut and Paste.
 
-### 7. 불투명성
-
-
+### 7. 불투명성 (Opacity)
+Elucidation of the originator’s intent presents certain difficulties related to convolution of expression.
 
 ## 2. 효과적인 객체지향 프로그래밍을 위한 원칙
 coupling
 
-### 1. SRP (The Single Responsibility Principle) : 하나의 책임 원칙 
+### 1. The Single Responsibility Principle(SRP) : 하나의 책임 원칙 
+> **A CLASS SHOULD HAVE ONLY ONE REASON TO CHANGE.**
 <p>어떤 클래스를 변경해야 하는 이유는 오직 하나 뿐 이어야한다. 다른 말로 풀어쓰면, 1개의 클래스는 1가지 목적을 위해서만 구현되어야 한다는 점이다.
 클래서에 포함되어 있는 필드, 매서드는 한 가지 목적으로 구성되어야 하며, 2가지 이상의 용도로 사용되는 클래스는 분리하여 관리되어야 효과적인 객체지향 프로그래밍이 가능하다.</p>
 
 ### 2. OCR (The Open - Closed Principle) : 개발 - 폐쇄 원칙
+>
 <p>소프트웨어 엔티티는 확장에 대해서는 개방되어야 하지만, 변경에 대해서는 페쇄되어야 한다. 클래스를 변경하지 않고도 그 클래스의 환경을 바꿀 수 있어야 한다.</p>
 
 ### 3. LSP (Liskov Substitution Principle) : 리스코프 교체 원칙
