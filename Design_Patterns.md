@@ -105,7 +105,8 @@ final class SingleObject {
 ### 11. Memento Pattern
 - 객체를 이전의 상태로 복구시켜야 하는 경우
 
-## 4. etc
+
+## 4. tc
 
 ### 1. MVC pattern
 - MVC Pattern 이란 소프트웨어를 만들 때 Model, View, Controller 로 구분하여 설계, 개발을 진행하도록하는 디자인 패턴이다.
