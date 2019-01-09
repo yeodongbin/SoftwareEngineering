@@ -108,10 +108,13 @@ final class SingleObject {
 ## 4. etc
 
 ### 1. MVC pattern
--
+- MVC Pattern 이란 소프트웨어를 만들 때 Model, View, Controller 로 구분하여 설계, 개발을 진행하도록하는 디자인 패턴이다.
+MVC 가진 장점은 소프트웨어를 분할 해 병렬적으로 개발할 수 있다는 점이다. 소프트웨어 개발은 1인 개발이 불가능할 정도로 크기가 커져가고 있다. 많은 개발자들이 소프트웨어 개발을 위해 협동해야 한다. 대표적인 소프트웨어 부분으로 분리하여 개발을 진행하기 때문에 독립적, 병렬적인 개발이 가능해 진다.
 
-### 1. MVC2 pattern
-- 
+   * Model : 데이터를 다루는 모듈을 모아놓은 파트
+   * View : 사용자가 보는 시각적 모듈을 모아놓은 파트
+   * Controller : Model, View 파트의 동작을 조정하여 원활한 데이터 이동, 화면 표시 등이 가능하도록 하는 파트
+ 
 
 # Reference 
 - https://www.tutorialspoint.com/design_pattern/singleton_pattern.htm
