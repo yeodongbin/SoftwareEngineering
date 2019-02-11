@@ -15,9 +15,10 @@
 - 어떤 클래스의 인스턴스를 만드는 것이 자원/시간을 많이 잡아먹거나 복잡한 경우
 
 ### 1.5. Singleton Pattern
-- 객체를 하나만 생성하여, 생성된 객체를 모든 다른 클래스에서 참조할 수 있도록 하는 디자인 패턴이다.
+- 객체를 하나만 생성하여, 생성된 객체를 모든 다른 클래스에서 참조할 수 있도록 하는 디자인 패턴이다. 하지만, 하나의 객체만을 고정하여 생성하는 것은 아니다. 정확히 말하면 엔지니어가 N개의 객체를 정확하게 고정하여 사용하도록 하는 것이다.
 
-<pre><code>public class SingletonPatternDemo {
+<pre><code>
+public class SingletonPatternDemo {
    public static void main(String[] args) {
       SingleObject object = SingleObject.getInstance();
       object.showMessage();
@@ -33,8 +34,11 @@ public class SingleObject {
    public void showMessage(){
       System.out.println("Hello World!");
    }
-}</code></pre>
-<pre><code>public class SingletonPatternDemo {
+}
+</code></pre>
+
+<pre><code>
+public class SingletonPatternDemo {
   public static void main(String argv[]) {
     SingleObject.showMessage();
   }
@@ -44,7 +48,8 @@ final class SingleObject {
   static public void showMessage() {
     System.out.println("Hello World!");
   }
-}</code></pre>
+}
+</code></pre>
 
 
 ## 2. Structural Design Patterns
